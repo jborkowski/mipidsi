@@ -60,9 +60,7 @@ impl Model for ILI9488Rgb565 {
     }
 
     fn default_options() -> ModelOptions {
-        let  z = ModelOptions::with_sizes((320, 480), (320, 480));
-         // z.set_orientation(crate::Orientation::Landscape(false));
-         z
+        ModelOptions::with_sizes((320, 480), (320, 480))
     }
 }
 
